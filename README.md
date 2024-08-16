@@ -40,9 +40,9 @@ or string.
 public class MyService
 {
 
-  private readonly IMetadataService _metadataService;
+  private readonly IServiceRegistry _metadataService;
 
-  public MyService(IMetadataService metadataService)
+  public MyService(IServiceRegistry metadataService)
   {
     _metadataService = metadataService;
   }
@@ -81,9 +81,9 @@ the sequence.
 public class MyService
 {
 
-  private readonly IMetadataService _metadataService;
+  private readonly IServiceRegistry _metadataService;
 
-  public MyService(IMetadataService metadataService)
+  public MyService(IServiceRegistry metadataService)
   {
     _metadataService = metadataService;
   }
@@ -139,9 +139,9 @@ an issue for string types.
 public class MyService
 {
 
-  private readonly IMetadataService _metadataService;
+  private readonly IServiceRegistry _metadataService;
 
-  public MyService(IMetadataService metadataService)
+  public MyService(IServiceRegistry metadataService)
   {
     _metadataService = metadataService;
   }
